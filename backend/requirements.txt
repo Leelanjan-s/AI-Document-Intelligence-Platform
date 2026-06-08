@@ -1,21 +1,37 @@
 fastapi
 uvicorn[standard]
+pydantic
+pydantic-settings
+email-validator
+python-multipart
+loguru
+python-dotenv
 
+# Database
 sqlalchemy
 psycopg2-binary
+asyncpg
+greenlet
+aiosqlite
 alembic
+redis
 
+# Security
 python-jose[cryptography]
 passlib[bcrypt]
 
-pydantic
-pydantic-settings
+# AI / Agents
+langgraph
+langchain-core
+langchain-openai
+langchain-anthropic
+pytesseract
+pypdf
 
-python-multipart
+# Storage
+boto3
 
-loguru
-
+# Testing
 pytest
+pytest-asyncio
 httpx
-
-python-dotenv

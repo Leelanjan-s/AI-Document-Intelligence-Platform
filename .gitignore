@@ -1,0 +1,64 @@
+# Environment variables (Crucial for API keys and database credentials)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.env
+
+# Local document and storage falls (contains uploaded files, scanned images, etc.)
+backend/local_storage/
+local_storage/
+raw/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.txt
+!backend/requirements.txt
+!frontend/package.json
+!backend/app/
+!frontend/app/
+!docs/
+
+# Python virtual environment & artifacts
+venv/
+.venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Node/React/Next.js artifacts
+node_modules/
+.next/
+out/
+build/
+dist/
+.next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / System files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
